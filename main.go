@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/glenntucker/restapi/controllers"
-	"github.com/glenntucker/restapi/models"
+	"github.com/rahmanfadhil/gin-bookstore/controllers"
+	"github.com/rahmanfadhil/gin-bookstore/models"
 )
 
 func main() {
@@ -11,7 +11,7 @@ func main() {
 
 	models.ConnectDatabase()
 
-	r.GET("/books", controllers.FindBooks) // new
+	r.GET("/books", controllers.FindBooks)
 
 	r.Run()
 }

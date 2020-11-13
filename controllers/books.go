@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/glenntucker/restapi/models"
+	"github.com/rahmanfadhil/gin-bookstore/models"
 )
 
 // GET /books
