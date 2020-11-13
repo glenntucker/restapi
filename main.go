@@ -1,9 +1,9 @@
 package main
 
 import (
-	"githib.com/glenntucker/restapi/controllers"
-	"githib.com/glenntucker/restapi/models"
 	"github.com/gin-gonic/gin"
+	"github.com/glenntucker/restapi/controllers"
+	"github.com/glenntucker/restapi/models"
 )
 
 func main() {
