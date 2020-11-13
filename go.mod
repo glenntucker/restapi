@@ -1,4 +1,4 @@
-module github.co/glenntucker/restapi
+module github.com/glenntucker/restapi
 
 go 1.15
 
